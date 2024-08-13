@@ -360,4 +360,64 @@ width: 30px;
     
 
 }
+
+
+}
+/* change your Habits section start */
+.habits{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 163px;
+    width: 1044px;
+    height: 450px;
+    margin-left: 198px;
+    
+    
+}
+.habits-container{
+    display: flex;
+    gap: 20px;
+}
+
+.habits-titel{
+    font-weight: 900; 
+    font-size: 3rem;
+      width: 476px;
+      height: 57px;
+    font-family: "Inter", sans-serif;
+    margin-left: 284px;
+}
+.habits-description{
+    
+        font-weight: 400; 
+        font-size:0.8rem;
+          width: 670px;
+          height: 48px;
+          color: rgba(255, 255, 255, 0.5);
+          margin-left: 184.5px;
+          margin-top: 14px;
+}
+.habits-container-picture{
+    border-radius: 50%;  
+}
+.movement-titel, .time-titel, .practice-titel, .weight-loss-titel{
+    font-weight: 600; 
+    font-size: 1.1rem;
+      width: 93px;
+      height: 21px;
+    font-family: "Inter", sans-serif;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 6px;
+    display: inline;
+    text-align: center;
+  
+    
+}
+.movement-description, .time-description, .practice-description, .weight-loss-description{
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-top: 6px;
 }
