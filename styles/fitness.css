@@ -152,6 +152,7 @@ width: 30px;
 }
 .healthy-content{
     display: inline-block;
+   
 }
 
 .healthy-shape-font{
@@ -191,6 +192,7 @@ width: 30px;
       margin-top: 28px; 
       width: 520px;
       height: 48px;
+      line-height: 1.2;
       color: rgba(255, 255, 255, 0.5);
 }
 .btn-healthy1{
@@ -215,6 +217,90 @@ width: 30px;
 
 }
 .healthy-picture{
-    margin-right: 190px;
+    margin-left: 330px;
     width: 350px;
+}
+/* Get body in shape & stay healthy button section */
+#tutorial-badge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 286px;
+    height: 96px;
+    transform: translate(-205%, 400%);
+    
+
+}
+
+.red-circle{
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    border-radius: 50%;
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+   transform: translate(-50%, 35%);
+   margin-left: -30px;
+    
+   
+    
+  
+    
+}
+#number-badge{
+    color: #FAFAF9;
+    font-weight: 900;
+    font-size: 1.5rem;
+    width: 68px;
+    height: 24px;
+    font-family: "Inter", sans-serif;
+  
+   
+}
+.tutorial{
+   color: rgba(239, 237, 232, 0.65); 
+   font-weight: 400;
+   font-size: 1rem;
+   width: 108px;
+   height: 24px;
+   font-family: "Inter", sans-serif;
+   margin-left: 30px;
+
+}
+
+#workout-badge{
+   background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+    width: 193px;
+    height: 98px;
+    transform: translate(-190%, 120%);
+}
+
+#number-badge2{
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 2.5rem;
+    width: 116px;
+    height: 40px;
+    font-family: "Inter", sans-serif;
+}
+.free-workout{
+    color: rgba(255, 255, 255, 0.65); 
+    font-weight: 400;
+    font-size: 0.8rem;
+    width: 146px;
+    height: 20px;
+    font-family: "Inter", sans-serif;
+    margin-left: 30px;
+   
+   
+   
 }
