@@ -130,7 +130,7 @@ width: 30px;
     } 
     .navbar-menu{
         display: flex;
-        
+      
     }
    .brand{
     text-align: left;
@@ -138,7 +138,7 @@ width: 30px;
     margin-top: 52px;
    }
    .navbar-menu{
-   margin-right: 20px;
+   
     margin-top: 23px;
    }
 
@@ -230,6 +230,7 @@ width: 30px;
     width: 286px;
     height: 96px;
     transform: translate(-205%, 400%);
+    backdrop-filter: blur(15.12px);
     
 
 }
@@ -282,6 +283,7 @@ width: 30px;
     width: 193px;
     height: 98px;
     transform: translate(-190%, 120%);
+    backdrop-filter: blur(15.12px);
 }
 
 #number-badge2{
@@ -303,4 +305,59 @@ width: 30px;
    
    
    
+}
+/*  responsive media query (Get body in shape & stay healthy section) for mobile devices */
+
+@media  screen and (max-width: 576px) {
+    .healthy{
+        position: static;
+        width: 352px;
+        height: 335px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+      
+    }  
+
+  .healthy-picture{
+ margin: 20px auto;
+ width: 100%;
+   
+  }
+  #tutorial-badge, #workout-badge {
+   display: flex;
+   width: 80%;
+   margin: 10px auto;
+   text-align: center;
+   flex-direction: column;
+   align-items: center;
+
+  }
+  
+#workout-badge{
+    background-color: rgba(255, 255, 255, 0.1);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 20px 40px;
+     width: 193px;
+     height: 98px;
+     transform: translate(90%, -680%);
+     backdrop-filter: blur(15.12px);
+
+}
+#tutorial-badge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 186px;
+    height: 96px;
+    transform: translate(-29%, -370%);
+    backdrop-filter: blur(15.12px);
+    
+
+}
 }
