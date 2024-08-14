@@ -465,3 +465,60 @@ width: 30px;
     margin-bottom: 6px;
 }
 }
+
+/* Run an Extra Mile Easily section */
+
+.run{
+    
+    width: 1060px;
+    height: 371px;
+    background-color: rgb(40, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    margin: 102px 190px 100px 190px;
+  
+}
+.run-titel{
+    font-weight: 900; 
+    font-size: 3rem;
+      width: 412px;
+      height: 116px; 
+      font-family: "Inter", sans-serif;
+      color: #FFFFFF;
+      margin-left: 54px;
+      margin-top: 41px;
+      
+}
+.run-description{
+    font-weight: 400; 
+    font-size: 0.8rem; 
+      width: 380px;
+      height: 72px;
+      text-align: left;
+      font-family: "Inter", sans-serif;
+      color: rgba(255, 255, 255, 0.5);
+      margin-left: 54px; 
+      margin-top: 14px;
+
+      
+}
+.run-btn{
+    background-color: #E6533C;
+    padding: 16px 40px 16px 40px;
+    width: 224px;
+    height: 54px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 40px;  
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    margin-left: 54px;
+    margin-bottom: 40px;
+  
+}
+.run-pic{
+   width: 336px;
+   height: 312px; 
+   padding: 30px 32px 29px 165px;
+   
+}
