@@ -612,6 +612,7 @@ width: 30px;
     font-size: 0.8rem;
     font-family: "Inter", sans-serif;
     margin-left: 384.5px;
+    margin-bottom: -330px;
    
     color: rgba(255, 255, 255, 0.5);
 }
@@ -624,6 +625,7 @@ order: 1;
 align-self: stretch;
 flex-grow: 0;
 margin: 10px 0px;
+
  
 
 
@@ -639,6 +641,82 @@ margin: 10px 0px;
 position: relative;
     
 }
+.overlay-trainer6{
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: -100px; 
+}
+.overlay-trainer5{
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: -100px;
+    
+    
+}
+.overlay-trainer4{
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: -100px;
+
+}
+.overlay-trainer3{
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: -100px; 
+}
+.overlay-trainer2{
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: -100px; 
+}
+.overlay-trainer1{
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: -100px; 
+}
+.name1-titel{
+    margin-left: 10px;
+}
+.name1-description{
+    margin-top: -10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.name2-titel{
+    margin-left: 10px;
+}
+.name2-description{
+    margin-top: -10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.name3-titel{
+    margin-left: 10px;
+}
+.name3-description{
+    margin-top: -10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.name4-titel{
+    margin-left: 10px;
+}
+.name4-description{
+    margin-top: -10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.name5-titel{
+    margin-left: 10px;
+}
+.name5-description{
+    margin-top: -10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.name6-titel{
+    margin-left: 10px;
+}
+.name6-description{
+    margin-top: -10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
 
 /*  responsive media query (Meet Our Team section) for mobile devices */
 @media  screen and (max-width: 576px){
@@ -691,4 +769,26 @@ margin-left: -410px;
 
 } 
   
+}
+/* our pricing plan section */
+.pricing-titel{
+    width: 494px;
+    height: 57px;
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: "Inter", sans-serif;
+   margin-left: 531px;
+   margin-top: 120px;
+    margin-bottom: 14px;
+    color: #FFFFFF;
+}
+.pricing-description{
+    width: 671px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 0.8rem;
+    font-family: "Inter", sans-serif;
+    margin-left: 384.5px;
+   
+    color: rgba(255, 255, 255, 0.5); 
 }
