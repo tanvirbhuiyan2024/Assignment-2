@@ -564,3 +564,131 @@ width: 30px;
         
     }
 }
+/* Meet Our Team section */
+.teams{
+    text-align: center;
+    
+    
+}
+
+
+.teams-img-container{
+  
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+    justify-content: center;
+    align-items: flex-start;
+  
+    margin-top: 58px;
+    margin-right: 190px;
+    margin-bottom: 88px;
+    margin-left: 190px ;
+   
+     width: 1060px;
+     height: 604px;
+  
+  
+ 
+}
+.teams-titel{
+    width: 374px;
+    height: 57px;
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: "Inter", sans-serif;
+   margin-left: 531px;
+    margin-bottom: 14px;
+    color: #FFFFFF;
+   
+}
+.teams-description{
+    width: 671px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 0.8rem;
+    font-family: "Inter", sans-serif;
+    margin-left: 384.5px;
+   
+    color: rgba(255, 255, 255, 0.5);
+}
+.teams-all-image{
+    position: static;
+    width: 326.67px;
+    height: 272px;
+    flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 10px 0px;
+ 
+
+
+
+  
+  
+}
+
+.overlay-trainer1{
+    
+}
+.trainer-1, .trainer-2, .trainer-3, .trainer-4, .trainer-5, .trainer-6{
+position: relative;
+    
+}
+
+/*  responsive media query (Meet Our Team section) for mobile devices */
+@media  screen and (max-width: 576px){
+   .teams-titel{
+    width: 243px;
+height: 38px;
+display: inline;
+font-weight: 900;
+font-size: 2rem;
+justify-content: flex-start;
+align-items: center;
+margin-left: -410px;
+
+   }
+    .teams-description{
+        width: 309px;
+        height: 72px;
+        display: inline;
+        font-weight: 400;
+        font-size: 0.8rem;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: -410px;
+   } 
+   .teams-img-container{
+  
+    display: flex;
+   flex-direction: column;
+ margin-top: 700px;
+ margin-left: -220px;
+ gap: 20;
+ padding: 20px;
+    
+   
+     width: 313px;
+     height: 1188px;
+  
+  
+ 
+}
+.teams{
+    width: 350px;
+    height: 1312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 295px;  
+    display: flex;
+
+} 
+  
+}
