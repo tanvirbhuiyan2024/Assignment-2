@@ -532,6 +532,7 @@ width: 30px;
         justify-content: flex-start;
         align-items: center;
         margin-left: 95px;
+        margin-bottom: -250px;
     }
     .run-pic{
        width: 306px;
@@ -567,6 +568,7 @@ width: 30px;
 /* Meet Our Team section */
 .teams{
     text-align: center;
+    margin-top: 300px;
     
     
 }
@@ -583,7 +585,7 @@ width: 30px;
     justify-content: center;
     align-items: flex-start;
   
-    margin-top: 58px;
+    margin-top: 358px;
     margin-right: 190px;
     margin-bottom: 88px;
     margin-left: 190px ;
@@ -602,6 +604,8 @@ width: 30px;
     font-family: "Inter", sans-serif;
    margin-left: 531px;
     margin-bottom: 14px;
+    margin-top: -200px;
+    
     color: #FFFFFF;
    
 }
@@ -729,6 +733,7 @@ font-size: 2rem;
 justify-content: flex-start;
 align-items: center;
 margin-left: -410px;
+margin-top: 10px;
 
    }
     .teams-description{
@@ -752,7 +757,8 @@ margin-left: -410px;
     
    
      width: 313px;
-     height: 1188px;
+     height: 1760px;
+     margin-top: 400px;
   
   
  
@@ -791,4 +797,102 @@ margin-left: -410px;
     margin-left: 384.5px;
    
     color: rgba(255, 255, 255, 0.5); 
+}
+.basic-plan-container,.weekly-plan-container, .fieldset-Monthly, .fieldset-Yearly{
+    color: #FFFFFF;
+}
+
+.fieldset-basic{
+width: 140px;
+height: 300px;
+background-color: rgb(78, 101, 121);
+
+margin-top: 50px;
+}
+.fieldset-weekly{
+    width: 140px;
+    height: 300px;
+    background-color: rgb(78, 101, 121);
+   
+    margin-top: 50px;  
+}
+
+.fieldset-Monthly{
+    width: 140px;
+    height: 300px;
+    background-color: rgb(78, 101, 121);
+    
+    margin-top: 50px; 
+}
+.fieldset-Yearly{
+    width: 140px;
+    height: 300px;
+    background-color: rgb(78, 101, 121);
+    
+    margin-top: 50px; 
+}
+.pricing-btn1,.pricing-btn2, .pricing-btn3, .pricing-btn4 {
+    background-color: #E6533C;
+    padding: 16px 40px 16px 40px;
+    width: 200px;
+    height: 54px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 40px;  
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    margin-left: 54px;
+    margin-bottom: 40px;
+    
+}
+.pricing-btn1{
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.pricing-btn2{
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.pricing-btn3{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.pricing-btn4{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.yearly-plan,.monthly-plan,.weekly-plan,.basic-plan{
+    color: rgb(244, 213, 36);
+}
+.all-pricing-plan{
+    display: flex;
+    gap: 2px;
+    margin-top: 30px;
+    margin-right: 190px;
+    margin-bottom: 88px;
+    margin-left: 160px ;
+}
+.label-1{
+    display: flex;
+    flex-direction: column;
+}
+.label-2{
+    display: flex;
+    flex-direction: column;  
+}
+.label-3{
+    display: flex;
+    flex-direction: column;   
+}
+.label-4{
+    display: flex;
+    flex-direction: column;  
 }
