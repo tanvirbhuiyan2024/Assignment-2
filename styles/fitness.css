@@ -896,3 +896,40 @@ margin-top: 50px;
     display: flex;
     flex-direction: column;  
 }
+
+/* responsive media query (our pricing plan section) for mobile devices */
+@media  screen and (max-width: 576px){
+    .pricing-plan{
+        margin-top: 800px;
+
+    }
+    .pricing-titel{
+        width: 243px;
+        height: 38px;
+        display: inline;
+        font-weight: 900;
+        font-size: 2rem;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 140px;
+        margin-top: 10px; 
+    }
+    .pricing-description{
+        width: 309px;
+        height: 72px;
+        
+        font-weight: 400;
+        font-size: 0.8rem;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 125px; 
+        margin-top: 30px;
+    }
+    .all-pricing-plan{
+        display: flex;
+        flex-direction: column;
+        margin-left: 140px;
+    }
+
+
+}
