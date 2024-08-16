@@ -1074,7 +1074,7 @@ margin-left: 90px;
     font-weight: 400;
     font-size: 1.4rem;
     font-family: "Inter", sans-serif; 
-      
+
 }
 .footer{
     width: 1060px;
@@ -1090,4 +1090,58 @@ margin-left: 90px;
 }
 .start-2-titel{
     margin-left: 30px;
+}
+.footer-copyright{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 100px;
+    font-family: "Inter", sans-serif; 
+  
+}
+/* responsive media query (footer section) for mobile devices */
+@media  screen and (max-width: 576px){
+    .footer{
+        width: 353px;
+        height: 848px;
+        margin-left: 110px;
+    } 
+    .footer-fit-titel{
+        width: 256px;
+height: 84px;
+font-size: 4.3rem;
+font-weight: 800;
+margin-left: 50px;
+margin-top: 44px;
+margin-right: 117px;
+    }
+    .footer-fit-description{
+        width: 317px;
+        height: 96px;
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin-left: 40px;
+        margin-top: 20px;
+       
+    }
+    .foot-start-1{
+        width: 181px;
+        height: 249px;
+        margin-left: -300px;
+        margin-top: 200px;
+       
+    }
+    .footer-full-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .foot-start-2{
+        width: 181px;
+        height: 249px;
+        margin-left: -350px;
+        margin-top: 500px; 
+        margin-right: 300px; 
+    }
 }
